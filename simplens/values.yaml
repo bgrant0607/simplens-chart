@@ -1,0 +1,10 @@
+labels:
+  istio-injection: enabled
+annotations:
+  network-type: mesh
+serviceAccountName: app-admin
+roleBindingRole: app-admin
+namespaces:
+  - name: backend1
+  - name: backend2
+  - name: backend3
